@@ -1079,3 +1079,289 @@ Some of the gauge lsp feature will not work as expected.
 23-01-2022 19:23:34.959 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
 24-01-2022 01:14:20.220 [Gauge] [DEBUG] Spec file added / modified: c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\test.spec
 24-01-2022 01:14:20.240 [Gauge] [DEBUG] Spec file added / modified: c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\example.spec
+24-01-2022 03:27:33.107 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+24-01-2022 03:27:33.120 [Gauge] [INFO] Initializing specs cache with 2 specs
+24-01-2022 03:27:33.120 [Gauge] [DEBUG] Adding specs from c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\example.spec
+24-01-2022 03:27:33.120 [Gauge] [DEBUG] Adding specs from c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\test.spec
+24-01-2022 03:27:33.120 [Gauge] [INFO] Initializing steps cache with 2 steps
+24-01-2022 03:27:33.121 [Gauge] [DEBUG] Watching directory: c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs
+24-01-2022 03:27:33.121 [Gauge] [DEBUG] Found 2 files
+24-01-2022 03:27:38.098 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+24-01-2022 03:27:38.099 [Gauge] [INFO] Initializing specs cache with 2 specs
+24-01-2022 03:27:38.099 [Gauge] [DEBUG] Adding specs from c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\example.spec
+24-01-2022 03:27:38.099 [Gauge] [DEBUG] Adding specs from c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\test.spec
+24-01-2022 03:27:38.099 [Gauge] [INFO] Initializing steps cache with 2 steps
+24-01-2022 03:27:38.100 [Gauge] [DEBUG] Watching directory: c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs
+24-01-2022 03:27:38.100 [Gauge] [DEBUG] Found 2 files
+24-01-2022 03:27:38.101 [Gauge] [INFO] Starting language runner
+24-01-2022 03:27:38.802 [java] [DEBUG] ***** Printing Properties/Env Values *****
+24-01-2022 03:27:38.802 [java] [DEBUG] PATH: C:\Program Files\Amazon Corretto\jdk1.8.0_322\bin;C:\Python310\Scripts\;C:\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Gauge\bin;C:\Program Files\Amazon Corretto\jdk1.8.0_322\bin;"C:\Program Files\apache-maven-3.8.4\bin;";C:\Users\testinium\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\testinium\AppData\Local\Programs\Python\Python37-32\;C:\Users\testinium\AppData\Local\Microsoft\WindowsApps;C:\Users\testinium\.dotnet\tools;C:\Users\testinium\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3\bin;;C:\Users\testinium\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\bin;;C:\Program Files\apache-maven-3.8.4\bin;;C:\Users\testinium\AppData\Roaming\gauge\plugins\screenshot\0.1.0
+24-01-2022 03:27:38.802 [java] [DEBUG] JAVA_HOME: C:\Users\testinium\.jdks\corretto-11.0.14
+24-01-2022 03:27:38.802 [java] [DEBUG] gauge_project_root: c:\Users\testinium\Desktop\gaugevscode\gauge test project
+24-01-2022 03:27:38.802 [java] [DEBUG] gauge_parallel_streams_count: 
+24-01-2022 03:27:38.802 [java] [DEBUG] gauge_reports_dir: reports
+24-01-2022 03:27:38.802 [java] [DEBUG] overwrite_reports: true
+24-01-2022 03:27:38.802 [java] [DEBUG] logs_directory: logs
+24-01-2022 03:27:38.802 [java] [DEBUG] enable_multithreading: true
+24-01-2022 03:27:38.802 [java] [DEBUG] gauge_specs_dir: specs
+24-01-2022 03:27:38.802 [java] [DEBUG] csv_delimiter: ,
+24-01-2022 03:27:38.802 [java] [DEBUG] gauge_java_home: 
+24-01-2022 03:27:38.802 [java] [DEBUG] gauge_custom_build_path: 
+24-01-2022 03:27:38.802 [java] [DEBUG] gauge_additional_libs: libs/*
+24-01-2022 03:27:38.802 [java] [DEBUG] gauge_jvm_args: 
+24-01-2022 03:27:38.802 [java] [DEBUG] gauge_custom_compile_dir: 
+24-01-2022 03:27:38.802 [java] [DEBUG] gauge_clear_state_level: scenario
+24-01-2022 03:27:38.802 [java] [DEBUG] ***** END *****
+24-01-2022 03:27:49.195 [java] [DEBUG] running - C:\Users\testinium\.jdks\corretto-11.0.14\bin\javac.exe [-encoding UTF-8 -d gauge_bin @C:\Users\TESTIN~1\AppData\Local\Temp\gauge_temp112289395\52fdfc072182654f163f5f0f9a621d72]
+24-01-2022 03:27:49.195 [java] [DEBUG] stdout/stderr is logged to logs\8124-javac.exe.out
+24-01-2022 03:27:50.752 [java] [ERROR] src\test\java\driver\Driver.java:7: error: package org.openqa.selenium does not exist
+24-01-2022 03:27:50.752 [java] [ERROR] import org.openqa.selenium.WebDriver;
+24-01-2022 03:27:50.752 [java] [ERROR] ^
+24-01-2022 03:27:50.773 [java] [ERROR] src\test\java\driver\Driver.java:12: error: cannot find symbol
+24-01-2022 03:27:50.773 [java] [ERROR] public static WebDriver webDriver;
+24-01-2022 03:27:50.773 [java] [ERROR] ^
+24-01-2022 03:27:50.773 [java] [ERROR] symbol:   class WebDriver
+24-01-2022 03:27:50.773 [java] [ERROR] location: class Driver
+24-01-2022 03:27:50.795 [java] [ERROR] src\test\java\driver\DriverFactory.java:3: error: package io.github.bonigarcia.wdm does not exist
+24-01-2022 03:27:50.795 [java] [ERROR] import io.github.bonigarcia.wdm.WebDriverManager;
+24-01-2022 03:27:50.795 [java] [ERROR] ^
+24-01-2022 03:27:50.803 [java] [ERROR] src\test\java\driver\DriverFactory.java:4: error: package org.openqa.selenium does not exist
+24-01-2022 03:27:50.803 [java] [ERROR] import org.openqa.selenium.WebDriver;
+24-01-2022 03:27:50.803 [java] [ERROR] ^
+24-01-2022 03:27:50.810 [java] [ERROR] src\test\java\driver\DriverFactory.java:5: error: package org.openqa.selenium.chrome does not exist
+24-01-2022 03:27:50.810 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+24-01-2022 03:27:50.810 [java] [ERROR] ^
+24-01-2022 03:27:50.818 [java] [ERROR] src\test\java\driver\DriverFactory.java:6: error: package org.openqa.selenium.firefox does not exist
+24-01-2022 03:27:50.818 [java] [ERROR] import org.openqa.selenium.firefox.FirefoxDriver;
+24-01-2022 03:27:50.818 [java] [ERROR] ^
+24-01-2022 03:27:50.825 [java] [ERROR] src\test\java\driver\DriverFactory.java:7: error: package org.openqa.selenium.ie does not exist
+24-01-2022 03:27:50.825 [java] [ERROR] import org.openqa.selenium.ie.InternetExplorerDriver;
+24-01-2022 03:27:50.825 [java] [ERROR] ^
+24-01-2022 03:27:50.829 [java] [ERROR] src\test\java\driver\DriverFactory.java:8: error: package org.openqa.selenium.chrome does not exist
+24-01-2022 03:27:50.829 [java] [ERROR] import org.openqa.selenium.chrome.ChromeOptions;
+24-01-2022 03:27:50.829 [java] [ERROR] ^
+24-01-2022 03:27:50.831 [java] [ERROR] src\test\java\driver\DriverFactory.java:15: error: cannot find symbol
+24-01-2022 03:27:50.831 [java] [ERROR] public static WebDriver getDriver() {
+24-01-2022 03:27:50.831 [java] [ERROR] ^
+24-01-2022 03:27:50.831 [java] [ERROR] symbol:   class WebDriver
+24-01-2022 03:27:50.831 [java] [ERROR] location: class DriverFactory
+24-01-2022 03:27:50.833 [java] [ERROR] src\test\java\example\StepImplementation.java:6: error: package org.openqa.selenium does not exist
+24-01-2022 03:27:50.833 [java] [ERROR] import org.openqa.selenium.By;
+24-01-2022 03:27:50.833 [java] [ERROR] ^
+24-01-2022 03:27:50.836 [java] [ERROR] src\test\java\example\StepImplementation.java:7: error: package org.openqa.selenium does not exist
+24-01-2022 03:27:50.836 [java] [ERROR] import org.openqa.selenium.WebElement;
+24-01-2022 03:27:50.836 [java] [ERROR] ^
+24-01-2022 03:27:50.916 [java] [ERROR] src\test\java\driver\DriverFactory.java:22: error: cannot find symbol
+24-01-2022 03:27:50.916 [java] [ERROR] WebDriverManager.iedriver().setup();
+24-01-2022 03:27:50.916 [java] [ERROR] ^
+24-01-2022 03:27:50.916 [java] [ERROR] symbol:   variable WebDriverManager
+24-01-2022 03:27:50.916 [java] [ERROR] location: class DriverFactory
+24-01-2022 03:27:50.917 [java] [ERROR] src\test\java\driver\DriverFactory.java:23: error: cannot find symbol
+24-01-2022 03:27:50.917 [java] [ERROR] return new InternetExplorerDriver();
+24-01-2022 03:27:50.917 [java] [ERROR] ^
+24-01-2022 03:27:50.917 [java] [ERROR] symbol:   class InternetExplorerDriver
+24-01-2022 03:27:50.917 [java] [ERROR] location: class DriverFactory
+24-01-2022 03:27:50.919 [java] [ERROR] src\test\java\driver\DriverFactory.java:25: error: cannot find symbol
+24-01-2022 03:27:50.919 [java] [ERROR] WebDriverManager.firefoxdriver().setup();
+24-01-2022 03:27:50.919 [java] [ERROR] ^
+24-01-2022 03:27:50.919 [java] [ERROR] symbol:   variable WebDriverManager
+24-01-2022 03:27:50.919 [java] [ERROR] location: class DriverFactory
+24-01-2022 03:27:50.921 [java] [ERROR] src\test\java\driver\DriverFactory.java:26: error: cannot find symbol
+24-01-2022 03:27:50.921 [java] [ERROR] return new FirefoxDriver();
+24-01-2022 03:27:50.921 [java] [ERROR] ^
+24-01-2022 03:27:50.921 [java] [ERROR] symbol:   class FirefoxDriver
+24-01-2022 03:27:50.921 [java] [ERROR] location: class DriverFactory
+24-01-2022 03:27:50.921 [java] [ERROR] src\test\java\driver\DriverFactory.java:29: error: cannot find symbol
+24-01-2022 03:27:50.922 [java] [ERROR] WebDriverManager.chromedriver().setup();
+24-01-2022 03:27:50.922 [java] [ERROR] ^
+24-01-2022 03:27:50.922 [java] [ERROR] symbol:   variable WebDriverManager
+24-01-2022 03:27:50.922 [java] [ERROR] location: class DriverFactory
+24-01-2022 03:27:50.922 [java] [ERROR] src\test\java\driver\DriverFactory.java:31: error: cannot find symbol
+24-01-2022 03:27:50.922 [java] [ERROR] 	            ChromeOptions options = new ChromeOptions();
+24-01-2022 03:27:50.922 [java] [ERROR] 	            ^
+24-01-2022 03:27:50.922 [java] [ERROR] symbol:   class ChromeOptions
+24-01-2022 03:27:50.922 [java] [ERROR] location: class DriverFactory
+24-01-2022 03:27:50.922 [java] [ERROR] src\test\java\driver\DriverFactory.java:31: error: cannot find symbol
+24-01-2022 03:27:50.922 [java] [ERROR] 	            ChromeOptions options = new ChromeOptions();
+24-01-2022 03:27:50.922 [java] [ERROR] 	                                        ^
+24-01-2022 03:27:50.922 [java] [ERROR] symbol:   class ChromeOptions
+24-01-2022 03:27:50.922 [java] [ERROR] location: class DriverFactory
+24-01-2022 03:27:50.930 [java] [ERROR] src\test\java\driver\DriverFactory.java:37: error: cannot find symbol
+24-01-2022 03:27:50.931 [java] [ERROR] 	            return new ChromeDriver(options);
+24-01-2022 03:27:50.931 [java] [ERROR] 	                       ^
+24-01-2022 03:27:50.931 [java] [ERROR] symbol:   class ChromeDriver
+24-01-2022 03:27:50.931 [java] [ERROR] location: class DriverFactory
+24-01-2022 03:27:50.937 [java] [ERROR] src\test\java\example\StepImplementation.java:15: error: cannot find symbol
+24-01-2022 03:27:50.937 [java] [ERROR] WebElement getStartedButton = Driver.webDriver.findElement(By.xpath("//a[@href='https://docs.gauge.org/getting_started/installing-gauge.html']"));
+24-01-2022 03:27:50.937 [java] [ERROR] ^
+24-01-2022 03:27:50.937 [java] [ERROR] symbol:   class WebElement
+24-01-2022 03:27:50.937 [java] [ERROR] location: class StepImplementation
+24-01-2022 03:27:50.939 [java] [ERROR] src\test\java\example\StepImplementation.java:15: error: cannot find symbol
+24-01-2022 03:27:50.939 [java] [ERROR] WebElement getStartedButton = Driver.webDriver.findElement(By.xpath("//a[@href='https://docs.gauge.org/getting_started/installing-gauge.html']"));
+24-01-2022 03:27:50.939 [java] [ERROR] ^
+24-01-2022 03:27:50.939 [java] [ERROR] symbol:   variable By
+24-01-2022 03:27:50.939 [java] [ERROR] location: class StepImplementation
+24-01-2022 03:27:50.940 [java] [ERROR] src\test\java\example\StepImplementation.java:23: error: cannot find symbol
+24-01-2022 03:27:50.940 [java] [ERROR] WebElement instructions = Driver.webDriver.findElement(By.xpath("//a[@href='/writing-specifications.html']"));
+24-01-2022 03:27:50.940 [java] [ERROR] ^
+24-01-2022 03:27:50.940 [java] [ERROR] symbol:   class WebElement
+24-01-2022 03:27:50.940 [java] [ERROR] location: class StepImplementation
+24-01-2022 03:27:50.941 [java] [ERROR] src\test\java\example\StepImplementation.java:23: error: cannot find symbol
+24-01-2022 03:27:50.941 [java] [ERROR] WebElement instructions = Driver.webDriver.findElement(By.xpath("//a[@href='/writing-specifications.html']"));
+24-01-2022 03:27:50.941 [java] [ERROR] ^
+24-01-2022 03:27:50.941 [java] [ERROR] symbol:   variable By
+24-01-2022 03:27:50.941 [java] [ERROR] location: class StepImplementation
+24-01-2022 03:27:51.510 [java] [ERROR] 23 errors
+24-01-2022 03:27:51.654 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+24-01-2022 03:27:51.655 [Gauge] [DEBUG] Gauge could not initialize. Install 'vscjava.vscode-java-pack' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+24-01-2022 03:27:51.655 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+24-01-2022 03:27:51.690 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+24-01-2022 03:30:24.438 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+24-01-2022 03:30:24.439 [Gauge] [INFO] Initializing specs cache with 2 specs
+24-01-2022 03:30:24.439 [Gauge] [DEBUG] Adding specs from c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\test.spec
+24-01-2022 03:30:24.439 [Gauge] [DEBUG] Adding specs from c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\example.spec
+24-01-2022 03:30:24.439 [Gauge] [INFO] Initializing steps cache with 2 steps
+24-01-2022 03:30:24.440 [Gauge] [DEBUG] Watching directory: c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs
+24-01-2022 03:30:24.440 [Gauge] [DEBUG] Found 2 files
+24-01-2022 03:30:24.440 [Gauge] [INFO] Starting language runner
+24-01-2022 03:30:24.477 [java] [DEBUG] ***** Printing Properties/Env Values *****
+24-01-2022 03:30:24.477 [java] [DEBUG] PATH: C:\Program Files\Amazon Corretto\jdk1.8.0_322\bin;C:\Python310\Scripts\;C:\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Gauge\bin;C:\Program Files\Amazon Corretto\jdk1.8.0_322\bin;"C:\Program Files\apache-maven-3.8.4\bin;";C:\Users\testinium\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\testinium\AppData\Local\Programs\Python\Python37-32\;C:\Users\testinium\AppData\Local\Microsoft\WindowsApps;C:\Users\testinium\.dotnet\tools;C:\Users\testinium\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3\bin;;C:\Users\testinium\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\bin;;C:\Program Files\apache-maven-3.8.4\bin;;C:\Users\testinium\AppData\Roaming\gauge\plugins\screenshot\0.1.0
+24-01-2022 03:30:24.477 [java] [DEBUG] JAVA_HOME: C:\Users\testinium\.jdks\corretto-11.0.14
+24-01-2022 03:30:24.477 [java] [DEBUG] gauge_project_root: c:\Users\testinium\Desktop\gaugevscode\gauge test project
+24-01-2022 03:30:24.477 [java] [DEBUG] gauge_parallel_streams_count: 
+24-01-2022 03:30:24.477 [java] [DEBUG] gauge_reports_dir: reports
+24-01-2022 03:30:24.477 [java] [DEBUG] overwrite_reports: true
+24-01-2022 03:30:24.477 [java] [DEBUG] logs_directory: logs
+24-01-2022 03:30:24.477 [java] [DEBUG] enable_multithreading: true
+24-01-2022 03:30:24.477 [java] [DEBUG] gauge_specs_dir: specs
+24-01-2022 03:30:24.477 [java] [DEBUG] csv_delimiter: ,
+24-01-2022 03:30:24.477 [java] [DEBUG] gauge_java_home: 
+24-01-2022 03:30:24.477 [java] [DEBUG] gauge_custom_build_path: 
+24-01-2022 03:30:24.477 [java] [DEBUG] gauge_additional_libs: libs/*
+24-01-2022 03:30:24.477 [java] [DEBUG] gauge_jvm_args: 
+24-01-2022 03:30:24.477 [java] [DEBUG] gauge_custom_compile_dir: 
+24-01-2022 03:30:24.478 [java] [DEBUG] gauge_clear_state_level: scenario
+24-01-2022 03:30:24.478 [java] [DEBUG] ***** END *****
+24-01-2022 03:30:30.155 [java] [DEBUG] running - C:\Users\testinium\.jdks\corretto-11.0.14\bin\javac.exe [-encoding UTF-8 -d gauge_bin @C:\Users\TESTIN~1\AppData\Local\Temp\gauge_temp099937379\52fdfc072182654f163f5f0f9a621d72]
+24-01-2022 03:30:30.155 [java] [DEBUG] stdout/stderr is logged to logs\8008-javac.exe.out
+24-01-2022 03:30:31.570 [java] [ERROR] src\test\java\driver\Driver.java:7: error: package org.openqa.selenium does not exist
+24-01-2022 03:30:31.570 [java] [ERROR] import org.openqa.selenium.WebDriver;
+24-01-2022 03:30:31.570 [java] [ERROR] ^
+24-01-2022 03:30:31.609 [java] [ERROR] src\test\java\driver\Driver.java:12: error: cannot find symbol
+24-01-2022 03:30:31.610 [java] [ERROR] public static WebDriver webDriver;
+24-01-2022 03:30:31.610 [java] [ERROR] ^
+24-01-2022 03:30:31.610 [java] [ERROR] symbol:   class WebDriver
+24-01-2022 03:30:31.610 [java] [ERROR] location: class Driver
+24-01-2022 03:30:31.658 [java] [ERROR] src\test\java\driver\DriverFactory.java:3: error: package io.github.bonigarcia.wdm does not exist
+24-01-2022 03:30:31.658 [java] [ERROR] import io.github.bonigarcia.wdm.WebDriverManager;
+24-01-2022 03:30:31.658 [java] [ERROR] ^
+24-01-2022 03:30:31.717 [java] [ERROR] src\test\java\driver\DriverFactory.java:4: error: package org.openqa.selenium does not exist
+24-01-2022 03:30:31.868 [java] [ERROR] import org.openqa.selenium.WebDriver;
+24-01-2022 03:30:31.868 [java] [ERROR] ^
+24-01-2022 03:30:31.868 [java] [ERROR] src\test\java\driver\DriverFactory.java:5: error: package org.openqa.selenium.chrome does not exist
+24-01-2022 03:30:31.868 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+24-01-2022 03:30:31.868 [java] [ERROR] ^
+24-01-2022 03:30:31.868 [java] [ERROR] src\test\java\driver\DriverFactory.java:6: error: package org.openqa.selenium.firefox does not exist
+24-01-2022 03:30:31.868 [java] [ERROR] import org.openqa.selenium.firefox.FirefoxDriver;
+24-01-2022 03:30:31.868 [java] [ERROR] ^
+24-01-2022 03:30:32.004 [java] [ERROR] src\test\java\driver\DriverFactory.java:7: error: package org.openqa.selenium.ie does not exist
+24-01-2022 03:30:32.004 [java] [ERROR] import org.openqa.selenium.ie.InternetExplorerDriver;
+24-01-2022 03:30:32.017 [java] [ERROR] ^
+24-01-2022 03:30:32.017 [java] [ERROR] src\test\java\driver\DriverFactory.java:8: error: package org.openqa.selenium.chrome does not exist
+24-01-2022 03:30:32.017 [java] [ERROR] import org.openqa.selenium.chrome.ChromeOptions;
+24-01-2022 03:30:32.017 [java] [ERROR] ^
+24-01-2022 03:30:32.017 [java] [ERROR] src\test\java\driver\DriverFactory.java:15: error: cannot find symbol
+24-01-2022 03:30:32.017 [java] [ERROR] public static WebDriver getDriver() {
+24-01-2022 03:30:32.017 [java] [ERROR] ^
+24-01-2022 03:30:32.017 [java] [ERROR] symbol:   class WebDriver
+24-01-2022 03:30:32.017 [java] [ERROR] location: class DriverFactory
+24-01-2022 03:30:32.017 [java] [ERROR] src\test\java\example\StepImplementation.java:6: error: package org.openqa.selenium does not exist
+24-01-2022 03:30:32.017 [java] [ERROR] import org.openqa.selenium.By;
+24-01-2022 03:30:32.017 [java] [ERROR] ^
+24-01-2022 03:30:32.017 [java] [ERROR] src\test\java\example\StepImplementation.java:7: error: package org.openqa.selenium does not exist
+24-01-2022 03:30:32.017 [java] [ERROR] import org.openqa.selenium.WebElement;
+24-01-2022 03:30:32.017 [java] [ERROR] ^
+24-01-2022 03:30:32.443 [java] [ERROR] src\test\java\driver\DriverFactory.java:22: error: cannot find symbol
+24-01-2022 03:30:32.443 [java] [ERROR] WebDriverManager.iedriver().setup();
+24-01-2022 03:30:32.443 [java] [ERROR] ^
+24-01-2022 03:30:32.443 [java] [ERROR] symbol:   variable WebDriverManager
+24-01-2022 03:30:32.443 [java] [ERROR] location: class DriverFactory
+24-01-2022 03:30:32.443 [java] [ERROR] src\test\java\driver\DriverFactory.java:23: error: cannot find symbol
+24-01-2022 03:30:32.443 [java] [ERROR] return new InternetExplorerDriver();
+24-01-2022 03:30:32.443 [java] [ERROR] ^
+24-01-2022 03:30:32.443 [java] [ERROR] symbol:   class InternetExplorerDriver
+24-01-2022 03:30:32.443 [java] [ERROR] location: class DriverFactory
+24-01-2022 03:30:32.443 [java] [ERROR] src\test\java\driver\DriverFactory.java:25: error: cannot find symbol
+24-01-2022 03:30:32.443 [java] [ERROR] WebDriverManager.firefoxdriver().setup();
+24-01-2022 03:30:32.443 [java] [ERROR] ^
+24-01-2022 03:30:32.443 [java] [ERROR] symbol:   variable WebDriverManager
+24-01-2022 03:30:32.443 [java] [ERROR] location: class DriverFactory
+24-01-2022 03:30:32.443 [java] [ERROR] src\test\java\driver\DriverFactory.java:26: error: cannot find symbol
+24-01-2022 03:30:32.443 [java] [ERROR] return new FirefoxDriver();
+24-01-2022 03:30:32.443 [java] [ERROR] ^
+24-01-2022 03:30:32.443 [java] [ERROR] symbol:   class FirefoxDriver
+24-01-2022 03:30:32.443 [java] [ERROR] location: class DriverFactory
+24-01-2022 03:30:32.443 [java] [ERROR] src\test\java\driver\DriverFactory.java:29: error: cannot find symbol
+24-01-2022 03:30:32.443 [java] [ERROR] WebDriverManager.chromedriver().setup();
+24-01-2022 03:30:32.444 [java] [ERROR] ^
+24-01-2022 03:30:32.444 [java] [ERROR] symbol:   variable WebDriverManager
+24-01-2022 03:30:32.444 [java] [ERROR] location: class DriverFactory
+24-01-2022 03:30:32.444 [java] [ERROR] src\test\java\driver\DriverFactory.java:31: error: cannot find symbol
+24-01-2022 03:30:32.444 [java] [ERROR] 	            ChromeOptions options = new ChromeOptions();
+24-01-2022 03:30:32.444 [java] [ERROR] 	            ^
+24-01-2022 03:30:32.444 [java] [ERROR] symbol:   class ChromeOptions
+24-01-2022 03:30:32.444 [java] [ERROR] location: class DriverFactory
+24-01-2022 03:30:32.444 [java] [ERROR] src\test\java\driver\DriverFactory.java:31: error: cannot find symbol
+24-01-2022 03:30:32.444 [java] [ERROR] 	            ChromeOptions options = new ChromeOptions();
+24-01-2022 03:30:32.444 [java] [ERROR] 	                                        ^
+24-01-2022 03:30:32.444 [java] [ERROR] symbol:   class ChromeOptions
+24-01-2022 03:30:32.444 [java] [ERROR] location: class DriverFactory
+24-01-2022 03:30:32.444 [java] [ERROR] src\test\java\driver\DriverFactory.java:37: error: cannot find symbol
+24-01-2022 03:30:32.444 [java] [ERROR] 	            return new ChromeDriver(options);
+24-01-2022 03:30:32.444 [java] [ERROR] 	                       ^
+24-01-2022 03:30:32.444 [java] [ERROR] symbol:   class ChromeDriver
+24-01-2022 03:30:32.444 [java] [ERROR] location: class DriverFactory
+24-01-2022 03:30:32.444 [java] [ERROR] src\test\java\example\StepImplementation.java:15: error: cannot find symbol
+24-01-2022 03:30:32.444 [java] [ERROR] WebElement getStartedButton = Driver.webDriver.findElement(By.xpath("//a[@href='https://docs.gauge.org/getting_started/installing-gauge.html']"));
+24-01-2022 03:30:32.444 [java] [ERROR] ^
+24-01-2022 03:30:32.444 [java] [ERROR] symbol:   class WebElement
+24-01-2022 03:30:32.444 [java] [ERROR] location: class StepImplementation
+24-01-2022 03:30:32.444 [java] [ERROR] src\test\java\example\StepImplementation.java:15: error: cannot find symbol
+24-01-2022 03:30:32.444 [java] [ERROR] WebElement getStartedButton = Driver.webDriver.findElement(By.xpath("//a[@href='https://docs.gauge.org/getting_started/installing-gauge.html']"));
+24-01-2022 03:30:32.444 [java] [ERROR] ^
+24-01-2022 03:30:32.444 [java] [ERROR] symbol:   variable By
+24-01-2022 03:30:32.444 [java] [ERROR] location: class StepImplementation
+24-01-2022 03:30:32.444 [java] [ERROR] src\test\java\example\StepImplementation.java:23: error: cannot find symbol
+24-01-2022 03:30:32.444 [java] [ERROR] WebElement instructions = Driver.webDriver.findElement(By.xpath("//a[@href='/writing-specifications.html']"));
+24-01-2022 03:30:32.444 [java] [ERROR] ^
+24-01-2022 03:30:32.444 [java] [ERROR] symbol:   class WebElement
+24-01-2022 03:30:32.444 [java] [ERROR] location: class StepImplementation
+24-01-2022 03:30:32.444 [java] [ERROR] src\test\java\example\StepImplementation.java:23: error: cannot find symbol
+24-01-2022 03:30:32.444 [java] [ERROR] WebElement instructions = Driver.webDriver.findElement(By.xpath("//a[@href='/writing-specifications.html']"));
+24-01-2022 03:30:32.444 [java] [ERROR] ^
+24-01-2022 03:30:32.444 [java] [ERROR] symbol:   variable By
+24-01-2022 03:30:32.444 [java] [ERROR] location: class StepImplementation
+24-01-2022 03:30:33.857 [java] [ERROR] 23 errors
+24-01-2022 03:30:33.977 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+24-01-2022 03:30:33.977 [Gauge] [DEBUG] Gauge could not initialize. Install 'vscjava.vscode-java-pack' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+24-01-2022 03:30:33.977 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+24-01-2022 03:30:33.989 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+24-01-2022 04:08:25.335 [Gauge] [DEBUG] request #7: textDocument/codeLens: failed to parse c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\test.spec
+c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\test.spec:1 Spec does not have any elements
+24-01-2022 04:08:25.449 [Gauge] [DEBUG] request #8: textDocument/documentSymbol: parsing failed for c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\test.spec. [[ParseError] c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\test.spec:1 Spec does not have any elements => '']
+24-01-2022 04:08:25.606 [Gauge] [DEBUG] Spec file added / modified: c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\test.spec
+24-01-2022 04:08:28.513 [Gauge] [DEBUG] Spec file removed: c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\test.spec
+24-01-2022 04:08:33.717 [Gauge] [DEBUG] Spec file added / modified: c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\example.spec
+24-01-2022 04:08:33.721 [Gauge] [DEBUG] Spec file added / modified: c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\example.spec
+24-01-2022 04:08:57.195 [Gauge] [DEBUG] Spec file added / modified: c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\test.spec
+24-01-2022 04:08:58.622 [Gauge] [DEBUG] request #16: textDocument/documentSymbol: parsing failed for c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\test.spec. [[ParseError] c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\test.spec:1 Spec does not have any elements => '']
+24-01-2022 04:08:58.851 [Gauge] [DEBUG] request #17: textDocument/codeLens: failed to parse c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\test.spec
+c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\test.spec:1 Spec does not have any elements
+24-01-2022 04:08:59.518 [Gauge] [DEBUG] Spec file added / modified: c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\test.spec
+24-01-2022 04:08:59.520 [Gauge] [DEBUG] Spec file added / modified: c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\test.spec
+24-01-2022 04:09:00.225 [Gauge] [DEBUG] Spec file added / modified: c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\test.spec
+24-01-2022 04:09:00.231 [Gauge] [DEBUG] Spec file added / modified: c:\Users\testinium\Desktop\gaugevscode\gauge test project\specs\test.spec

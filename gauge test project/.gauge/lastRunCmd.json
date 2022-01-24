@@ -1,7 +1,6 @@
 [
 	"gauge",
 	"run",
-	"--parallel",
 	"--dir=C:\\Users\\testinium\\Desktop\\gaugevscode\\gauge test project",
 	"C:\\Users\\testinium\\Desktop\\gaugevscode\\gauge test project\\specs"
 ]
