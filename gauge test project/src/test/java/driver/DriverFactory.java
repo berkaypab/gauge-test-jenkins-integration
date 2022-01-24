@@ -31,6 +31,7 @@ public class DriverFactory {
 	            ChromeOptions options = new ChromeOptions();
                 options.addArguments("--headless");
                 options.addArguments("--disable-gpu");
+                options.setBinary("C:\\Users\\testinium\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe")
 	            if ("Y".equalsIgnoreCase(System.getenv("HEADLESS"))) {
 	                options.addArguments("--headless");
 	                options.addArguments("--disable-gpu");
