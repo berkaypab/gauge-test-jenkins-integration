@@ -1,0 +1,1 @@
+var index = {"Tags":{},"Specs":{"Getting Started with Gauge":["specs/example.html"],"Getting Started with Gauge2":["specs/test.html"]}};

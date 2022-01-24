@@ -1,0 +1,8 @@
+{
+	"Args": [
+		"run",
+		"--parallel",
+		"--dir=C:\\Users\\testinium\\Desktop\\gaugevscode\\gauge test project"
+	],
+	"FailedItems": []
+}
